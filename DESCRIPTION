@@ -4,10 +4,12 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Jon", "Harmon", , "jonthegeek@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4781-4346"))
-Description: The goal of shinyoauth is to...
+Description: Implement 'oauth2' authentiction flows in Shiny applications.
+    The flows can prevent access to the app by unauthorized users, and/or
+    provide authorization tokens to the app for use in API calls.
 License: MIT + file LICENSE
-URL: https://github.com/shinyworks/shinyoauth,
-    https://shinyworks.github.io/shinyoauth/
+URL: https://shinyworks.github.io/shinyoauth/,
+    https://github.com/shinyworks/shinyoauth
 BugReports: https://github.com/shinyworks/shinyoauth/issues
 Suggests: 
     testthat (>= 3.0.0)
